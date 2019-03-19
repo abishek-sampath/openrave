@@ -20,8 +20,8 @@
 #include "rampoptimizer/feasibilitychecker.h"
 #include "manipconstraints2.h"
 
-// #define SMOOTHER_TIMING_DEBUG
-#define SMOOTHER_PROGRESS_DEBUG
+// #define SMOOTHER_TIMING_DEBUG // uncomment this to get more information on time spent for collision checking, manip constraint checking, etc.
+//#define SMOOTHER_PROGRESS_DEBUG // uncomment his to get more information on progress during each shortcut iteration
 
 namespace rplanners {
 
