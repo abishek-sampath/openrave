@@ -846,7 +846,7 @@ By default will sample the robot's active DOFs. Parameters part of the interface
                     }
                 }
 
-                if( GetEnv()->CheckCollision(_probot, _report) ) {
+                if( !bCollision && GetEnv()->CheckCollision(_probot, _report) ) {
                     bCollision = true;
                     nEnvCollisionFailure++;
                 }
